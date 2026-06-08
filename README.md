@@ -4,13 +4,7 @@ Egydimenziós hővezetési szimuláció Forth nyelven. A program egy rúd hőmé
 ## Modell
 A program az alábbi differenciálegyenletet oldja meg:
 
-\[
-\frac{\partial T}{\partial t}
-=
-\alpha \frac{\partial^2 T}{\partial x^2}
--
-\beta (T-T_{env})
-\]
+$$\frac{\partial T}{\partial t}=\alpha \frac{\partial^2 T}{\partial x^2}-\beta (T-T_{env})$$
 
 ahol:
 - `T` – hőmérséklet
